@@ -1,0 +1,8 @@
+tags
+bspwm
+bspc
+*.o
+tests/test_window
+/build*/
+/bspwwm
+__pycache__/

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=bspwwm
+Comment=Binary space partitioning Wayland compositor
+Exec=bspwwm
+Type=Application
+DesktopNames=bspwwm

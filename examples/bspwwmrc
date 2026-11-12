@@ -1,0 +1,10 @@
+#!/bin/sh
+# Put this executable file at ~/.config/bspwwm/bspwwmrc.
+# The compositor exports WAYLAND_DISPLAY and BSPWM_SOCKET before running it.
+bspc monitor -d 1 2 3 4 5 6 7 8 9
+bspc config window_gap 8
+bspc config border_width 2
+bspc config split_ratio 0.5
+bspc config focus_follows_pointer false
+# Native Wayland applications only. Super+Return starts $BSPWWM_TERMINAL (foot).
+# foot &
